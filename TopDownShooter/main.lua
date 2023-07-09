@@ -128,7 +128,7 @@ function love.draw()
         love.graphics.setColor(1, 0, 0)
     end
 
-    love.graphics.draw(sprites.player, player.x, player.y, playerMouseAngle() + math.pi/2, nil, nil, 
+    love.graphics.draw(sprites.player, player.x, player.y, playerMouseAngle(), nil, nil, 
     sprites.player:getWidth()/2, sprites.player:getHeight() / 2)
 
     love.graphics.setColor(1, 1, 1)
